@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Form Validation </title>
+        <link rel="stylessheet" href="styles.css">
+    </head>
+<body>
+
+<form id="myForm" action="https://cs601.bu-course-examples.com/hw4/380a98f5-5191-496f-8aa1-7acc1da83cc5" method="post">
+    <label for="firstName"> First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName"> Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="facilitator"> Facilitator:</label>
+    <input type="text" id="facilitator" name="facilitator" required><br><br>
+
+    <label>Choose an option:</label><br>
+    <input type="radio" id="option1" name="option" value="Option 1">
+    <label for="option1">Option 1</label><br><br>
+    <input type="radio" id="option2" name="option" value="Option 2">
+    <label for="option2">Option 2</label><br><br>
+
+    <label>Choose values:</label><br>
+    <input type="checkbox" id="value1" name="value1" value="Value 1">
+    <label for="value1">Value 1</label><br><br>
+    <input type="checkbox" id="value2" name="value2" value="Value 2">
+    <label for="value2">Value 2</label><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<script src="script.js"></script>
+</body>    
+</html>
